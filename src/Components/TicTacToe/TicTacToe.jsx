@@ -25,6 +25,12 @@ const TicTacToe = () => {
       setCount(++count);
     }
   }
+
+  const checkWin = () =>{
+    if(data[0]===data[1] && data[1]===data[2] && data[2]!==""){
+
+    }
+  }
   return (
     <div className='container'>
       <h1 className="title">Tic Tac Toe Game In <span>React</span></h1>
